@@ -1,0 +1,103 @@
+#About-us {
+    background-color: #61A5BD;
+}
+
+#slider {
+    position: relative;
+    height: 50vw;
+    max-height: 500px;
+    overflow: auto;
+}
+
+#slider img {
+    opacity: 0;
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#slider img.selected {
+    opacity: 1;
+}
+
+.clinic {
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    transform: translate(-65%, 40%);
+}
+
+.clinic .title {
+    margin-bottom: 16px;
+    color: blue;
+}
+
+.clinic .descricao-slide p {
+    text-decoration: none;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.clinic .btn-slide {
+    background-color: #0c5c51;
+    color:white;
+    padding:1rem 1rem; 
+    border-radius: 8px;
+    display: inline-block;
+    transition: 0.2s;
+    margin-left: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+    margin-left: 2px;
+}
+
+.clinic .btn-slide a {
+    text-decoration: none;
+    color: white;
+}
+
+.clinic .btn-slide a:hover {
+    color: black;
+}
+
+.btn-slide:hover {
+    background-color:#e3e5e9;
+    color: #61A5BD;
+}
+
+/* PUBLICIDADE */
+.publididade-mas {
+    background-color:#0c5c51;
+}
+
+.publididade-mas .container {
+    display: flex;
+    align-items: center;
+}
+
+.publididade-mas .card-item-pub{
+    margin: 30px;
+    text-align: center;
+}
+
+.publididade-mas .card-item-pub i{
+    font-size: 45px;
+    display: block;
+    color: black;
+}
+
+.publididade-mas .card-item-pub .descrição {
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding: 20px 20px;
+}
+
+.publididade-mas i:hover {
+    color: white;
+    margin-top: -5px;
+}
